@@ -1,0 +1,35 @@
+.task{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 0, 0, 0.548);
+    margin-bottom: 5px;
+    border-radius: 6px;
+    height: 40px;
+
+    p{
+        color: white;
+        flex-grow: 1;
+        font-size: 18px;
+
+        &.completed{
+            text-decoration: line-through;
+        }
+    }
+    &__num{
+        font-size: 18px;
+        color: white;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    &__btn{
+        height: 100%;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+}

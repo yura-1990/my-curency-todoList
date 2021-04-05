@@ -1,0 +1,33 @@
+.todo{
+    margin-top: 30px;
+
+    &__form{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    &__input{
+        flex-grow: 1;
+        height: 35px;
+        padding: 5px 10px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background: rgba(0, 0, 0, 0.158);
+        color: white;
+        text-shadow: 0 0 50px white;
+        border-radius: 5px;
+    }
+    &__btn{
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        width: 50px;
+        margin-left: 20px;
+        background: rgb(153, 0, 255);
+        color: white;
+        font-size: 20px;
+    }
+}
